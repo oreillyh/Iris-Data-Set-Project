@@ -12,3 +12,5 @@ Exploration of the Iris Data set using Python
     #2.1 Downloading and importing the Data Set
     #2.2 Simple Python scripts
     #2.3 Simple Statistical Analysis
+
+  #3.0  DISCUSSION AND CONCLUSION
