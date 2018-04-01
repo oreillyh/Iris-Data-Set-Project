@@ -1,6 +1,6 @@
 # Iris-Data-Set-Project
 #Hugh O'Reilly 01/04/2018
-Exploration of the Iris Data set using Python
+#Exploration of the Iris Data set using Python
 #PROJECT PLANNING:
   #1.0 INTRODUCTION
     #1.1 The Iris Data Set
