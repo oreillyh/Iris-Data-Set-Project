@@ -1,12 +1,12 @@
 # Iris-Data-Set-Project
 
-##Hugh O'Reilly 01/04/2018
-##Exploration of the Iris Data set using Python
-##PROJECT PLANNING:
-  ###1.0 INTRODUCTION
-    ####1.1 The Iris Data Set
+## Hugh O'Reilly 01/04/2018
+## Exploration of the Iris Data set using Python
+## PROJECT PLANNING:
+  ### 1.0 INTRODUCTION
+    #### 1.1 The Iris Data Set
 
-    The iris data set was first described in a paper written by R.A. Fisher in the Annals of Human Genetics. It is a data set which the authgor gathered on three species of Irises: *setosa*, *versicolor* and *virginica*
+    The iris data set was first described in a paper written by R.A. Fisher in the Annals of Human Genetics. It is a data set which the authgor gathered on three species of Irises: * setosa *, *versicolor* and *virginica*
     
     ####1.2 History and background
     ####1.3 Simple Python functions
