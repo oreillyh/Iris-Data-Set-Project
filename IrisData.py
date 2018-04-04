@@ -7,7 +7,9 @@ with open("data/iris.csv") as f: #Opens Iris data set csv file in data folder
         print(line.split(',')[:]) #Splits and Prints 
         #each line as a list, colon separates each item in
         # columns
-    
+    for column in f:
+        print (f.read()) 
+        
                   
 
 
