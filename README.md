@@ -1,5 +1,8 @@
 # Iris-Data-Set-Project
-
+ARTHUR: >What manner of man are you that can summon up fire without flint or tinder?
+TIM: >I... am an enchanter.
+ARTHUR: >By what name are you known?
+TIM: >There are some who call me... 'Tim'? 
 ## Hugh O'Reilly 01/04/2018
 ## Exploration of the Iris Data set using Python
 ## PROJECT PLANNING:
