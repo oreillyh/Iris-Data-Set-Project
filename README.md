@@ -13,9 +13,9 @@ TIM:
 ## PROJECT PLANNING:
   ### 1.0 INTRODUCTION
   #### 1.1 The Iris Data Set
-   The iris data set was first described in a paper written by R.A. Fisher in the *Annals of Human Genetics* in 1936. It is a data set which the author gathered on three species of Irises: *setosa*, *versicolor* and *virginica*. Measurements of 4 characteristics of 50 flowers of each of the plants were taken, namely Sepal length, Sepal width, Petal Length, and Petal width  [The use of multiple measurements in taxonomic problems][http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf]
+   The iris data set was first described in a paper written by R.A. Fisher in the *Annals of Human Genetics* in 1936. It is a data set which the author gathered on three species of Irises: *setosa*, *versicolor* and *virginica*. Measurements of 4 properties of 50 flowers of each of the plants were taken, namely Sepal length, Sepal width, Petal Length, and Petal width  [The use of multiple measurements in taxonomic problems][http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf]
     
-   #### 1.2 History and background to analysis of Fishers Iris Data Set
+   #### 1.2 Background to Fishers Iris Data Set Analysis
 
    #### 1.3 Simple Python functions
    #### 1.4 Python Packages
