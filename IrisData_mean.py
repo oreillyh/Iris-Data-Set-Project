@@ -1,16 +1,14 @@
 import csv
-import numpy as numpy
+import pandas
+import numpy as np
 import matplotlib.pyplot as plt
 
 with open("data/iris.csv", 'r') as f:
     reader = csv.reader(f, delimiter='\t')
-    
+    f = np.array(f)
     for line in f:# loops through each line
-        line = line.replace(',', '   ') #replaces comma with space, code from Mohamed Noor
-        line = line.rstrip() #Removes nextline code on end, code from Mohamed Noor
-        print(line.split(',')) #Splits and Prints 
-        #each line as a list, colon separates each item in
-        # columns
-    
-    print (f.read())
+        #print(line.split(',')[0]) #Prints each line as a list
+                    
+        print (sum(f), "sum of row 1 = "  )
+    #print (total)
 
