@@ -23,6 +23,9 @@ TIM:
 
    #### 1.3 Simple Python functions
    #### 1.4 Python Packages
+   ##### Numpy
+
+   The numPy package is a basic package for scientific computation in python. It is also particularly useful as a container for multidimensional data which makes NumPy arrays easy to work with,manipulate and analyse. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases. Ref [NumPy][https://docs.scipy.org/doc/numpy/index.html]
    #### 1.5 Literature Review
     
    ### 2.0 EXPERIMENTAL
@@ -36,6 +39,8 @@ TIM:
    #### 2.2 Simple Python scripts
    #### 2.3 Simple Statistical Analysis
   Some simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set.
+
+  The IrisData_mean.py file in this repository has been written using the NumPy package to carry out simple statistical analysis of the data set.
 
   The next step might be to calculate the mean of each property: Sepal length, Sepal width, Petal Length, and Petal width for each species.
 
