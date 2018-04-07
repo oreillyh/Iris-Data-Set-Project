@@ -35,7 +35,11 @@ TIM:
 
    #### 2.2 Simple Python scripts
    #### 2.3 Simple Statistical Analysis
+  Some simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set.
 
+  The next step might be to calculate the mean of each property: Sepal length, Sepal width, Petal Length, and Petal width for each species.
+
+  Further work would be to calculate the standard deviation from the mean for each property
    ### 3.0  DISCUSSION AND CONCLUSION
 
    ### REFERENCES
