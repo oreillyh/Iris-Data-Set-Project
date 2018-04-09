@@ -13,7 +13,7 @@ TIM:
 ## python files in this repository
 ### Irisdata.py = a basic few lines of code to import csv file and sort into rows and column
 ### IrisData_np.py attempt to import pandas, numpy and matplotlib packages and work on data set
-### Irisdata_mean.py is an initial attempt to write simple functions on irisdat set as csv file
+### Irisdata_mean.py is an initial attempt to write simple functions on irisdata set as csv file
 ## PROJECT PLANNING:
   ### 1.0 INTRODUCTION
   #### 1.1 The Iris Data Set
