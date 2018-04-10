@@ -6,4 +6,4 @@ iris_np = np.array(iris) #convert to numpy array
 
 np.vsplit(iris_np, 49) #split iris data set by row 49 (iris Setosa subset)
 
-iris setosa = (np.vsplit(iris_np, 49))
+iris setosa = (np.vsplit(iris_np, 49)) #note to self: error: need to remove column with string?
