@@ -1,3 +1,7 @@
+#Hugh O'Reilly 11/04/18
+#Iris Data Set Project
+#attempts to calculate means for each species
+
 import pandas as pd
 import numpy as np
 
