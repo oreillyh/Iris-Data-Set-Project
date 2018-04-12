@@ -1,28 +1,26 @@
 #Hugh O'Reilly 11/04/18
 #Iris Data Set Project
-#attempts to split up data set 
+#Attempts to split up and plot data set 
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+import pandas as pd #pandas module imported
+import numpy as np #numpy module imported
+import matplotlib.pyplot as plt #matplotlib module imported
 
-iris = pd.read_csv("data/iris.csv") #import dataset as panda
-iris_np = np.array_split(iris, 3) #convert to numpy array and split into 3
-#doesnt split evenly
-
-np.hsplit(iris_np,(0,4)) #split floats from strings 
-np.vsplit(iris_np,(0,49)) #split array at setosa
-np.vsplit(iris_np,(49,99)) #split array at versicolor
-np.vsplit(iris_np,(99,150)) #split array at virginica
-
-np.hsplit(iris_np,(0,1)) #splits first column
-np.hsplit(iris_np,(1,2)) #splits second column
-np.hsplit(iris_np,(2,3)) #splits third column
-np.hsplit(iris_np,(3,4)) #splits fourth column
+iris = pd.read_csv("data/iris.csv", names = ["sepal length", "sepal width", "petal length", "petal width", "species",]) #import dataset as panda
+# credit to http://www.codeastar.com/beginner-data-science-tutorial/ for inspiration for lines 09-16
+irisdata  = iris.values #ensures floats are used, strings eliminated
+Setosa = irisdata[:49][:,0:4]
+Setosa1 = irisdata[:49][:,0:1]
+Setosa2 = irisdata[:49][:,1:2]
+Setosa3 = irisdata[:49][:,2:3]
+Setosa4 = irisdata[:49][:,3:4]
 
 #Some code for labelling, generating and printing histograms
-#plt.xlabel('')
-#plt.ylabel('count')
-#plt.hist.
-#plt.show()
+plt.xlabel('size (cm)')
+plt.ylabel('count')
+plt.hist(Setosa1)
+plt.hist(Setosa2)
+plt.hist(Setosa3)
+plt.hist(Setosa4)
+plt.show()
 
