@@ -29,12 +29,22 @@ Versicolor2 = irisdata[50:100][:,1:2]
 Versicolor3 = irisdata[50:100][:,2:3]
 Versicolor4 = irisdata[50:100][:,3:4]
 
+print ('Mean of Versicolor petal length is', np.mean(Versicolor1))
+print ('Mean of Versicolor petal Width is', np.mean(Versicolor2))
+print ('Mean of Versicolor Sepal length is', np.mean(Versicolor3))
+print ('Mean of Versicolor Sepal Width is', np.mean(Versicolor4))
+
 #virginica data sorted
 Virginica = irisdata[100:150][:,0:4]
 Virginica1 = irisdata[100:150][:,0:1]
 Virginica2 = irisdata[100:150][:,1:2]
 Virginica3 = irisdata[100:150][:,2:3]
 Virginica4 = irisdata[100:150][:,3:4]
+
+print ('Mean of Virginica petal length is', np.mean(Virginica1))
+print ('Mean of Virginica petal Width is', np.mean(Virginica2))
+print ('Mean of Virginica Sepal length is', np.mean(Virginica3))
+print ('Mean of Virginica Sepal Width is', np.mean(Virginica4))
 
 print ('Setosa ', Setosa)
 print ('Versicolor', Versicolor)
@@ -49,11 +59,16 @@ fig = plt.figure()
 
 #Initial attempts to display all plots individually
 ax1 = fig.add_subplot(211)
-ax1.plot.(Setosa1)
-ax2 = fig.add_subplot(212)
-ax2.plot.(Setosa2)
-
+ax1.plot(Setosa1)
+ax1.set(title = 'Setosa Petal Lengths')
+ax2 = fig.add_subplot(211)
+ax2.set(title = 'Setosa Petal Widths')
+ax2.plot(Setosa2)
+ax3 = fig.add_subplot(212)
+ax3.set(title = 'Setosa Sepal Lengths')
+ax3.plot(Setosa3)
 plt.show()
+
 #plt.hist(Setosa1)
 #plt.hist(Setosa2)
 #plt.hist(Setosa3)
