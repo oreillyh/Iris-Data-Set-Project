@@ -36,7 +36,7 @@ Virginica2 = irisdata[100:150][:,1:2]
 Virginica3 = irisdata[100:150][:,2:3]
 Virginica4 = irisdata[100:150][:,3:4]
 
-print ('Setosa', Setosa)
+print ('Setosa','\n', Setosa)
 print ('Versicolor', Versicolor)
 print ('Virginica', Virginica)
 print (iris.describe()) #Overall summary of entire iris data: count, mean sd, min, %, max
@@ -45,17 +45,25 @@ print (iris.describe()) #Overall summary of entire iris data: count, mean sd, mi
 #Some code for labelling, generating and printing histograms
 plt.xlabel('size (cm)')
 plt.ylabel('count')
-plt.hist(Setosa1)
-plt.hist(Setosa2)
-plt.hist(Setosa3)
-plt.hist(Setosa4)
-plt.hist(Versicolor1)
-plt.hist(Versicolor2)
-plt.hist(Versicolor3)
-plt.hist(Versicolor4)
-plt.hist(Virginica1)
-plt.hist(Virginica2)
-plt.hist(Virginica3)
-plt.hist(Virginica4)
+fig = plt.figure()
+
+ax1 = fig.add_subplot(211)
+ax1.plot.(Setosa1)
+ax2 = fig.add_subplot(212)
+ax2.plot.(Setosa2)
+
 plt.show()
+#plt.hist(Setosa1)
+#plt.hist(Setosa2)
+#plt.hist(Setosa3)
+#plt.hist(Setosa4)
+#plt.hist(Versicolor1)
+#plt.hist(Versicolor2)
+#plt.hist(Versicolor3)
+#plt.hist(Versicolor4)
+#plt.hist(Virginica1)
+#plt.hist(Virginica2)
+#plt.hist(Virginica3)
+#plt.hist(Virginica4)
+#plt.show()
  
