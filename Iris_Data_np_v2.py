@@ -36,7 +36,7 @@ Virginica2 = irisdata[100:150][:,1:2]
 Virginica3 = irisdata[100:150][:,2:3]
 Virginica4 = irisdata[100:150][:,3:4]
 
-print ('Setosa','\n', Setosa)
+print ('Setosa ', Setosa)
 print ('Versicolor', Versicolor)
 print ('Virginica', Virginica)
 print (iris.describe()) #Overall summary of entire iris data: count, mean sd, min, %, max
@@ -47,6 +47,7 @@ plt.xlabel('size (cm)')
 plt.ylabel('count')
 fig = plt.figure()
 
+#Initial attempts to display all plots individually
 ax1 = fig.add_subplot(211)
 ax1.plot.(Setosa1)
 ax2 = fig.add_subplot(212)
