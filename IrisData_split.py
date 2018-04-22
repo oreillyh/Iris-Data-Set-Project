@@ -23,8 +23,8 @@ def split_iris(iris, chunkSize = 151):
 
 iris_split2 = split_iris(iris, chunkSize = 49)   
 
-setosa = ([iris_split2[]]
-#print(iris_split2[1]) #print Iris Setosa data
+setosa = ([iris_split2[1])
+print(iris_split2[1]) #print Iris Setosa data
 #print(iris_split2[1]) #print Iris Versicolor data
 #print(iris_split2[2]) #print Iris Virginica data
 
