@@ -8,6 +8,7 @@ import numpy as np
 iris = pd.read_csv("data/iris.csv") #import dataset as panda
 iris_np = np.array(iris) #convert to numpy array
 
+#printing of means of each characteristic for each species, to 3 decimal places
 print ("Average of column 1 (Sepal Length) for all species is:", float("{0:.3f}".format(np.mean(iris_np[:, 0]))))
 print ("Average of column 2 (Sepal Width) for all species is:\n", float("{0:.3f}".format(np.mean(iris_np[:, 1]))))
 print ("Average of column 3 (Petal Length) for all species is:\n", float("{0:.3f}".format(np.mean(iris_np[:, 2]))))
@@ -27,8 +28,18 @@ print ("Average of column 1 (Sepal Length) for Iris Virginica:\n", (float("{0:.3
 print ("Average of column 2 (Sepal Width) for Iris Virginica:\n", float("{0:.3f}".format(np.mean(iris_np[101:, 1]))))
 print ("Average of column 3 (Petal Length) for Iris Virginica:\n", float("{0:.3f}".format(np.mean(iris_np[101:, 2]))))
 print ("Average of column 4 (Petal Width) for Iris Virginica:\n",float("{0:.3f}".format(np.mean(iris_np[101:, 3])))) 
-import matplotlib.pyplot as pl
 
-pl.hist(iris_np[51:, 0])
-pl.show()
+
+
+
+
+
+
+
+
+
+#import matplotlib.pyplot as pl
+
+#pl.hist(iris_np[51:, 0])
+#pl.show()
 

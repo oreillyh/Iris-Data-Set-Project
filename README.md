@@ -41,13 +41,16 @@ TIM:
     
    ### 2.0 EXPERIMENTAL
 
-   Work done on the data set
-
+   
    #### 2.1 Downloading and importing the Data Set
 
    note to self: look up *csv* module in Python's standard library :+1:
 
    #### 2.2 Simple Python scripts
+
+  The file irisdata_mean.py uses pandas to import the csv file which is then converted to a Numpy array. The file is then split easily by species and characteristic. Means are calculated for each characteristic
+  
+   ![means](screenshot2.PNG)
    #### 2.3 Simple Statistical Analysis
   Some simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set.
 
