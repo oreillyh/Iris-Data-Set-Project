@@ -31,7 +31,7 @@ TIM:
 
    The NumPy package is a basic package for scientific computation in python. It is also particularly useful as a container for multidimensional data which makes NumPy arrays easy to work with,manipulate and analyse. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases. Ref [NumPy][https://docs.scipy.org/doc/numpy/index.html] In our case the Iris data set is saved as a 'csv' file i.e. a comma separated values file. Microsoft Office's website ref [www.office.com]. [https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba] defines CSV files as >"Comma separated values text files (.csv), in which the comma character (,) typically separates each field of text." CSV files are difficult to work with since the commas and other strings must be removed and the float and/or integer data must be then sorted and worked on. Numpy was found to be particularly useful for importing the data set as an array (matrix) or 'list of lists' on which various functions could be applied.
 
-![split csv](C:\Users\hugh_\Desktop\Iris-Data-Set-Project\Iris_data_split_code.png
+![split csv](C:\Users\hugh_\Desktop\Iris-Data-Set-Project\Iris_data_split_code.png)
 
 
 
