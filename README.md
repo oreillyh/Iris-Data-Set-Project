@@ -73,6 +73,8 @@ From IrisData_mean.py python file
 
   Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a numerical label to each characteristic with which we might distinguish it from other characteristics. The standard deviation from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. The ANOVA test helps us determine if a linear relationship exists between characteristics and species.
 
+  #### 2.3 
+
    ### 3.0  DISCUSSION AND CONCLUSION
 
    ### REFERENCES
