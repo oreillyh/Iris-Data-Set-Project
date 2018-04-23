@@ -44,13 +44,21 @@ TIM:
    
    #### 2.1 Downloading and importing the Data Set
 
-   note to self: look up *csv* module in Python's standard library :+1:
+   The file iris.csv in this repository contains the csv data for the iris data set. This was accessed from the UCI machine learning repository located at Ref: [UCI MACHINE LEARNING REPOSITORY][https://archive.ics.uci.edu/ml/datasets/iris] by simply downloading the folder containing the data set here:
+   
+   ![data set download][screenshot3.PNG]
+
+   The data set is then saved as a csv file in the parent folder of this repository in a subfolder called 'data'.
+   The file Irisdata.py in this repository was initially written to import the Iris Data set file, removing the commas from each line and sorting the data into neat rows and columns. The script then converts each line to a list and outputs the result to the screen.
+
+   ![Iris Data Set Output][screenshot4.PNG]
 
    #### 2.2 Simple Python scripts
 
   The file irisdata_mean.py uses pandas to import the csv file which is then converted to a Numpy array. The file is then split easily by species and characteristic. Means are calculated for each characteristic
-  
+
    ![means](screenshot2.PNG)
+
    #### 2.3 Simple Statistical Analysis
   Some simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set.
 
