@@ -63,6 +63,8 @@ TIM:
 
   Simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set. The file IrisData_mean.py uses pandas to import the csv file which is then converted to a Numpy array using the NumPy package. The file is then split easily by species and characteristic. Means are calculated for each characteristic; Sepal length, Sepal width, Petal Length,and Petal width for each species to three decimal places. 
 
+From IrisData_mean.py python file
+
   ![means](screenshot2.PNG)
 
   Further work was carried out to calculate the standard deviation from the mean for each property.
