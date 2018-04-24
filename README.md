@@ -42,6 +42,8 @@ TIM:
 
    The Matplotlib python library is used to make charts such as histograms, plots and bar charts. The pyplot module is used in this project to generate simple histograms of the python data set for example in file 'Iris_data_np_v2.py'. Addition of add-on toolkits such as 3d plotting with mplot3d enhance the functionality of the matplotlib library. Ref [matplotlib] [https://matplotlib.org/]
 
+#### Scikitlearn
+
 #### 1.4 Literature Review
     
 ### 2.0 EXPERIMENTAL
@@ -51,7 +53,7 @@ TIM:
 
    The file iris.csv in this repository contains the csv data for the iris data set. This was accessed from the UCI machine learning repository located at Ref: [UCI MACHINE LEARNING REPOSITORY][https://archive.ics.uci.edu/ml/datasets/iris] by simply downloading the folder containing the data set here:
 
-   ![data set download](screenshot3.PNG)
+   ![data set download](screenshot3.png)
    
    The data set is then saved as a csv file in the parent folder of this repository in a subfolder called 'data'.
    The file Irisdata.py in this repository was initially written to import the Iris Data set file, removing the commas from each line and sorting the data into neat rows and columns. The script then converts each line to a list and outputs the result to the screen.
@@ -59,7 +61,7 @@ TIM:
    ![Iris Data Set Output](screenshot4.PNG)
 
    
-  #### 2.2 Simple Statistical Analysis
+#### 2.2 Simple Statistical Analysis
 
   Simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set. The file IrisData_mean.py uses pandas to import the csv file which is then converted to a Numpy array using the NumPy package. The file is then split easily by species and characteristic. Means are calculated for each characteristic; Sepal length, Sepal width, Petal Length,and Petal width for each species to three decimal places. 
 
@@ -71,9 +73,34 @@ From IrisData_mean.py python file
 
   ![Standard Deviations](screenshot6.PNG)
 
-  Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a numerical label to each characteristic with which we might distinguish it from other characteristics. The standard deviation from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. The ANOVA test helps us determine if a linear relationship exists between characteristics and species.
+  Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a (hopefully) unique numerical label to each characteristic with which we might distinguish it from other characteristics. The standard deviation from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. The ANOVA test helps us determine if a linear relationship exists between characteristics and species.
 
-  #### 2.3 
+#### 2.3 Machine Learning
+  
+  Machine learning may be defined as 'creating and using models that are learned from data' Typically the goal of machine learning is to take a data set whose relationships we understand  (a training set), use it to develop models which are then used to predict various outcomes for new, data. 
+  A 'model' may be defined as "The specification of a mathematical (or probabilistic) relationship that exists between different vasriables".
+    
+  In the case of the Iris Data set investigated in this project the goal of a machine learning algorithm might be to predict the species of iris based on an unknown set of petal and sepal width and lengths (or even just the data from one measurement such as petal length.) 
+
+##### 2.3.1 Models
+
+  Different types of machine learning models exist including
+
+  * *Supervised*
+    Where the (training) data is labelled with the right answers: *e.g.* Classification or regression
+  * *Unsupervised*
+    Where the data set has no labels: *e.g.* Clustering
+  * *semisupervised*
+    some data are labelled
+  * *Online*
+    Where the model has to adapt continuously to new data
+
+Choosing the correct machine learning model for the data we have is an important choice in the process of data analysis. Such decisions may be to proceed with models such as linear regression where there is a linear relationship between parameters, polynomial regression, or decision trees, to name a few examples.
+[Ref] [Grus, J.; Data Science from Scratch, 2017, O'Reilly] [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
+
+##### 2.3.2 Machine Learning carried out on Iris Data Set
+
+
 
    ### 3.0  DISCUSSION AND CONCLUSION
 
