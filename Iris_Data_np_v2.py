@@ -46,9 +46,9 @@ print ('Mean of Virginica petal Width is', np.mean(Virginica2))
 print ('Mean of Virginica Sepal length is', np.mean(Virginica3))
 print ('Mean of Virginica Sepal Width is', np.mean(Virginica4))
 
-print ('Setosa ', Setosa)
-print ('Versicolor', Versicolor)
-print ('Virginica', Virginica)
+print ('Setosa:\n', Setosa)
+print ('Versicolor:\n', Versicolor)
+print ('Virginica:\n', Virginica)
 print (iris.describe()) #Overall summary of entire iris data: count, mean sd, min, %, max
 
 

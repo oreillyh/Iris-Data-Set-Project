@@ -54,6 +54,8 @@ However it proved easier and more intuitive to subsequently use Numpy as in Iris
    
 #### 2.1 Downloading and importing the Data Set
 
+Repository File: Irisdata.py
+
    The file iris.csv in this repository contains the csv data for the iris data set. This was accessed from the UCI machine learning repository located at Ref: [UCI MACHINE LEARNING REPOSITORY][https://archive.ics.uci.edu/ml/datasets/iris] by simply downloading the folder containing the data set here:
 
    ![data set download](screenshot3.png)
@@ -63,8 +65,18 @@ However it proved easier and more intuitive to subsequently use Numpy as in Iris
 
    ![Iris Data Set Output](screenshot4.PNG)
 
-   
-#### 2.2 Simple Statistical Analysis
+#### 2.2 Plots and histograms of the Iris Data set
+
+Repository File: Iris_Data_np_v2.py
+
+Plots and histograms of the Iris data set was carried out by first separating out the rows and columns of the data set into species and characteristic. Use of the data import, analysis and display properties of pandas, NumPy and Matplotlib respectively were used through trial and error to find the appropriate commands. 
+
+An example of a histogram generated is displayed below, from the Iris_Data_np_v2.py file.
+
+![Histogram](screenshot7_Histogram.png)
+
+  
+#### 2.3 Simple Statistical Analysis
 
   Simple calculations on the data set might involve getting the mean of each column i.e. looping through column 1 to 4, getting the sum of each column and dividing by the number of rows to get the mean. This loop would have to terminate at the strings in the data set. The file IrisData_mean.py uses pandas to import the csv file which is then converted to a Numpy array using the NumPy package. The file is then split easily by species and characteristic. Means are calculated for each characteristic; Sepal length, Sepal width, Petal Length,and Petal width for each species to three decimal places. 
 
@@ -76,9 +88,9 @@ From IrisData_mean.py python file
 
   ![Standard Deviations](screenshot6.PNG)
 
-  Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a (hopefully) unique numerical label to each characteristic with which we might distinguish it from other characteristics. The standard deviation from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. The ANOVA test helps us determine if a linear relationship exists between characteristics and species.
+  Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a (hopefully) unique numerical label to each characteristic with which we might distinguish it from other characteristics. The standard deviation from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. 
 
-#### 2.3 Machine Learning
+#### 2.4 Machine Learning
   
   Machine learning may be defined as 'creating and using models that are learned from data' Typically the goal of machine learning is to take a data set whose relationships we understand  (a training set), use it to develop models which are then used to predict various outcomes for new, data. 
   A 'model' may be defined as "The specification of a mathematical (or probabilistic) relationship that exists between different vasriables".
