@@ -13,16 +13,16 @@ TIM:
 ## Exploration of the Iris Data set using Python
 ## python files in this repository
 
-### Irisdata_mean.py is an initial attempt to write simple functions on irisdata set as csv file
-### Irisdata.py = a basic few lines of code to import csv file and sort into rows and column
-### IrisData_np.py Main Python file worked on. Attempt to import pandas, numpy and matplotlib packages and work on data set
+* Irisdata_mean.py is an initial attempt to write simple functions on irisdata set as csv file
+* Irisdata.py = a basic few lines of code to import csv file and sort into rows and column
+* IrisData_np.py Main Python file worked on. Attempt to import pandas, numpy and matplotlib packages and work on data set
 
 ### 1.0 INTRODUCTION
+
 #### 1.1 The Iris Data Set
    The iris data set was first described in a paper written by R.A. Fisher in the *Annals of Human Genetics* in 1936. It is a data set of 50 samples which the author gathered on each of three species of Irises: *setosa*, *versicolor* and *virginica*. Measurements of 4 properties of 50 flowers of each of the plants were taken, namely Sepal length, Sepal width, Petal Length, and Petal width. The author suggests that the petal and sepal lengths and widths are characteristics whcih can be used to identify which species they belong to based on a linear discriminant model. Fischer himself developed the linear discriminant model,a statistical, machine learning and pattern recognition technique used to distinguish between two or more objects, classes or events. Ref [Linear discriminant analysis] [https://en.wikipedia.org/wiki/Linear_discriminant_analysis]Ref [Iris Data set wikipedia] [https://en.wikipedia.org/wiki/Iris_flower_data_set]  Fischer presented the data for the 3 species in a table with each of the four measurements and subsequently, tables of observed means, sums of squares etc in order to demonstrate how each species can be discriminated from one another. Fischer first carries out an analysis of variance (ANOVA) of the data set, using sums of squares and products of deviations from each mean in order to create a linear function which best descriminates between the two species. The ANOVA test is a powerful statistical tool which, using the means between vaiables can determine the relationships (such as differences) between factors. Ref [The use of multiple measurements in taxonomic problems][http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf], [Choosing and Using Statistics : A Biologist's Guide] [ Dytham, C. Choosing and Using Statistics : A Biologist's Guide, 2011, Wiley]
 
-      
- #### 1.2 Simple Python functions
+#### 1.2 Simple Python functions
 
    A simple function to calculate the mean of a column is seen here in irisdata_np.py
    ![simplemean](screenshot5.PNG)
@@ -47,8 +47,9 @@ However it proved easier and more intuitive to subsequently use Numpy as in Iris
 
 #### Scikitlearn
 
-#### 1.4 Literature Review
-    
+Scikitlearn is a useful library for carrying out machine learning in python and contains many machine learning models which may be used to explore data sets. Scikitlearn already has built in code to handle the machine learning analysis of large data sets. ref [Grus, J.; Data Science from Scratch, 2017, O'Reilly] [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
+
+   
 ### 2.0 EXPERIMENTAL
 
    
@@ -69,7 +70,7 @@ Repository File: Irisdata.py
 
 Repository File: Iris_Data_np_v2.py
 
-Plots and histograms of the Iris data set was carried out by first separating out the rows and columns of the data set into species and characteristic. Use of the data import, analysis and display properties of pandas, NumPy and Matplotlib respectively were used through trial and error to find the appropriate commands. 
+  Plots and histograms of the Iris data set was carried out by first separating out the rows and columns of the data set into species and characteristic. Use of the data import, analysis and display properties of pandas, NumPy and Matplotlib respectively were used through trial and error to find the appropriate commands. 
 
 An example of a histogram generated is displayed below, from the Iris_Data_np_v2.py file.
 
@@ -97,7 +98,7 @@ From IrisData_mean.py python file
     
   In the case of the Iris Data set investigated in this project the goal of a machine learning algorithm might be to predict the species of iris based on an unknown set of petal and sepal width and lengths (or even just the data from one measurement such as petal length.) 
 
-##### 2.3.1 Models
+##### 2.4.1 Models
 
   Different types of machine learning models exist including
 
@@ -110,12 +111,12 @@ From IrisData_mean.py python file
   * *Online*
     Where the model has to adapt continuously to new data
 
-Choosing the correct machine learning model for the data we have is an important choice in the process of data analysis. Such decisions may be to proceed with models such as linear regression where there is a linear relationship between parameters, polynomial regression, or decision trees, to name a few examples.
-[Ref] [Grus, J.; Data Science from Scratch, 2017, O'Reilly] [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
+  Choosing the correct machine learning model for the data we have is an important choice in the process of data analysis. Such decisions may be to proceed with models such as linear regression where there is a linear relationship between parameters, polynomial regression, or decision trees, to name a few examples.
+  [Ref] [Grus, J.; Data Science from Scratch, 2017, O'Reilly] [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
 
-##### 2.3.2 Machine Learning carried out on Iris Data Set
+##### 2.4.2 Machine Learning carried out on Iris Data Set
 
-
+The Scikitlearn library site contains various examples of machine learning models of the Iris data set including principal component analysis, logistic regression and nearest neighbours classification (amongst others) ref: [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
 
    ### 3.0  DISCUSSION AND CONCLUSION
 
