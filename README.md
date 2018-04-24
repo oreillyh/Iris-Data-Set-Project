@@ -25,7 +25,6 @@ TIM:
  #### 1.2 Simple Python functions
 
    A simple function to calculate the mean of a column is seen here in irisdata_np.py
-
    ![simplemean](screenshot5.PNG)
 
    Using the Numpy package has the 'mean' function built in so it can be seen in further work that writing a function to define the mean is not really necessary. 
@@ -34,9 +33,13 @@ TIM:
 
 ##### Numpy
 
-   The NumPy package is a basic package for scientific computation in python. It is also particularly useful as a container for multidimensional data which makes NumPy arrays easy to work with,manipulate and analyse. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases. Ref [NumPy][https://docs.scipy.org/doc/numpy/index.html] In our case the Iris data set is saved as a 'csv' file i.e. a comma separated values file. Microsoft Office's website ref [www.office.com]. [https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba] defines CSV files as >"Comma separated values text files (.csv), in which the comma character (,) typically separates each field of text." CSV files are difficult to work with since the commas and other strings must be removed and the float and/or integer data must be then sorted and worked on. Numpy was found to be particularly useful for importing the data set as an array (matrix) or 'list of lists' on which various functions could be applied. Attempts were made in the IrisData_split.py file to research code which allowed the data set to be split without using the Numpy package. However it proved easier and more intuitive to use Numpy as in Iris_Data_np_v2.py
+   The NumPy package is a basic package for scientific computation in python. It is also particularly useful as a container for multidimensional data which makes NumPy arrays easy to work with,manipulate and analyse. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases. Ref [NumPy][https://docs.scipy.org/doc/numpy/index.html] In our case the Iris data set is saved as a 'csv' file i.e. a comma separated values file. Microsoft Office's website ref [www.office.com]. [https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba] defines CSV files as >"Comma separated values text files (.csv), in which the comma character (,) typically separates each field of text." CSV files are difficult to work with since the commas and other strings must be removed and the float and/or integer data must be then sorted and worked on. Numpy was found to be particularly useful for importing the data set as an array (matrix) or 'list of lists' on which various functions could be applied. Attempts were made in the IrisData_split.py file to write code which allowed the data set to be split without using the Numpy package. 
 
+
+Example screenshot from Irisdata_split.py file
  ![split iris data code](screenshot1.PNG)
+
+However it proved easier and more intuitive to subsequently use Numpy as in Iris_Data_np_v2.py. 
 
 #### Matplotlib
 
