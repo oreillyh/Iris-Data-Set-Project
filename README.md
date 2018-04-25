@@ -7,12 +7,22 @@ The Search For The Holy Grail
 >TIM: There are some who call me... 'Tim'? 
 
 ## Hugh O'Reilly 01/04/2018
-## Exploration of the Iris Data set using Python
-## python files in this repository
 
-* Irisdata_mean.py is an initial attempt to write simple functions on irisdata set as csv file
-* Irisdata.py = a basic few lines of code to import csv file and sort into rows and column
-* IrisData_np.py Main Python file worked on. Attempt to import pandas, numpy and matplotlib packages and work on data set
+## Exploration of the Iris Data set using Python
+
+## Main Python files in this repository
+
+* IrisData_mean.py:   An initial attempt to write simple functions on irisdata set as csv file
+* IrisData.py:        A basic few lines of code to import csv file and sort into rows and column
+* IrisData_split:     Displays a script researched on Stackoverflow to split dataset using basic python code
+* IrisData_np.py:     Contains simple function to determine means of all species
+* IrisData_np_v2.py   Main Python file worked on. Attempt to import pandas, numpy and matplotlib packages and work on data set, 
+    * Sorting data into species and characteristic
+    * Output means of each characteristic for each species
+    * Overall summary of entire iris data: count, mean sd, min, %, max
+    * Output and label simple line graphs
+    * Output and Label Histograms 
+* Iris.seaborn.py:  A brief investigation into the usefulness of the      Seaborn package for data visualisation on the Iris set
 
 ### 1.0 INTRODUCTION
 
@@ -26,7 +36,11 @@ The Search For The Holy Grail
 
    Using the Numpy package has the 'mean' function built in so it can be seen in further work that writing a function to define the mean is not really necessary. 
 
-#### 1.3 Python Packages
+#### 1.3 Python Libraries
+
+##### Pandas
+
+  The pandas library is a useful package for importing labelled data such as the iris data set. It makes data such as csv files much easier to work with.
 
 ##### Numpy
 
@@ -46,6 +60,9 @@ However it proved easier and more intuitive to subsequently use Numpy as in Iris
 
 Scikitlearn is a useful library for carrying out machine learning in python and contains many machine learning models which may be used to explore data sets. Scikitlearn already has built in code to handle the machine learning analysis of large data sets. ref [Grus, J.; Data Science from Scratch, 2017, O'Reilly] [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
 
+#### Seaborn package
+
+[REf] https://seaborn.pydata.org/generated/seaborn.PairGrid.html#seaborn.PairGrid
    
 ### 2.0 EXPERIMENTAL
 
@@ -113,8 +130,8 @@ From IrisData_mean.py python file
 
 ##### 2.4.2 Machine Learning carried out on Iris Data Set
 
-The Scikitlearn library site contains various examples of machine learning models of the Iris data set including principal component analysis, logistic regression and nearest neighbours classification (amongst others) ref: [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
+  The Scikitlearn library site contains various examples of machine learning models of the Iris data set including principal component analysis, logistic regression and nearest neighbours classification (amongst others) ref: [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
 
    ### 3.0  DISCUSSION AND CONCLUSION
-
+  Use of Pandas
    ### REFERENCES

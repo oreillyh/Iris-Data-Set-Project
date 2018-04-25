@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt #matplotlib module imported
 
 iris = pd.read_csv("data/iris.csv", names = ["sepal length", "sepal width", "petal length", "petal width", "species",]) #import dataset as panda
 # credit to http://www.codeastar.com/beginner-data-science-tutorial/ for inspiration for lines 09-18
-irisdata  = iris.values #ensures floats are used, strings eliminated
+
+ #ensures floats are used, strings eliminated
 
 #setosa data sorted
 Setosa = irisdata[:50][:,0:4] #the entire setosa data set
@@ -22,6 +23,7 @@ print ('Mean of Setosa petal Width is', np.mean(Setosa2))
 print ('Mean of Setosa Sepal length is', np.mean(Setosa3))
 print ('Mean of Setosa Sepal Width is', np.mean(Setosa4))
 
+Setosa_means = np.array[((np.mean(Setosa1), (np.mean(Setosa2), (np.mean(Setosa3), (np.mean(Setosa4))]
 #versicolor data sorted
 Versicolor = irisdata[50:100][:,0:4] #The entire Versicolor data set
 Versicolor1 = irisdata[50:100][:,0:1] #Versicolor petal length

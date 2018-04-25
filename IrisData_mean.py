@@ -4,7 +4,16 @@
 # Updated on 23/04/18 to include calculations for standard deviations
 import pandas as pd
 import numpy as np
+#Iris Data sorted into columns
+#Hugh O'Reilly 04/03/18
+import numpy as np
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns
+import scipy as sc
 
+iris = sns.load_dataset("data/iris.csv")
+iris.head()
 iris = pd.read_csv("data/iris.csv") #import dataset as panda
 iris_np = np.array(iris) #convert to numpy array
 
