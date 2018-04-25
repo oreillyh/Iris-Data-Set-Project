@@ -11,9 +11,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy as sc
-
-iris = sns.load_dataset("data/iris.csv")
-iris.head()
+iris = pd.read_csv("data/iris.csv", names = ["sepal length", "sepal width", "petal length", "petal width", "species",]) #import dataset as panda
+iris1 = sns.load_dataset("iris")
+iris1.head()
 iris = pd.read_csv("data/iris.csv") #import dataset as panda
 iris_np = np.array(iris) #convert to numpy array
 

@@ -62,7 +62,10 @@ Scikitlearn is a useful library for carrying out machine learning in python and 
 
 #### Seaborn package
 
-[REf] https://seaborn.pydata.org/generated/seaborn.PairGrid.html#seaborn.PairGrid
+Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
+
+Ref [https://seaborn.pydata.org/index.html]
+[Ref] https://seaborn.pydata.org/generated/seaborn.PairGrid.html#seaborn.PairGrid
    
 ### 2.0 EXPERIMENTAL
 

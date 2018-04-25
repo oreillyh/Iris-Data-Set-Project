@@ -11,6 +11,7 @@ iris = pd.read_csv("data/iris.csv", names = ["sepal length", "sepal width", "pet
 iris1 = sns.load_dataset("iris") #loads the iris dataset in 'seaborn' format
 iris1.head() #displays first 8 rows of dataset
 
+#plots show relationships betwen variables
 g = sns.PairGrid(iris1)
 g = sns.pairplot(iris1, hue="species") #creates a plot of pairs of attributes
 g = g.map(plt.scatter) 
