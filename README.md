@@ -158,18 +158,18 @@ From IrisData_mean.py python file
 
    ### REFERENCES
 
-   [https://en.wikipedia.org/wiki/Linear_discriminant_analysis]
-   [https://en.wikipedia.org/wiki/Iris_flower_data_set] 
-   [http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf],
-   [ Dytham, C. Choosing and Using Statistics : A Biologist's Guide, 2011, Wiley]
-   [https://docs.scipy.org/doc/numpy/index.html]
-   [https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba]
-   [https://matplotlib.org/]
-   [Grus, J.; Data Science from Scratch, 2017, O'Reilly]
-   [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
-   [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
-   [https://seaborn.pydata.org/index.html]
-   [https://seaborn.pydata.org/generated/seaborn.PairGrid.html#seaborn.PairGrid]
+   1.   Linear discriminant analysis  [https://en.wikipedia.org/wiki/Linear_discriminant_analysis]
+   2.   The Iris Flower Data set [https://en.wikipedia.org/wiki/Iris_flower_data_set] 
+   3.   Fischers Iris Data set paper  [http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf],
+   4.   Stistics, A Biologists Guide [Dytham, C. Choosing and Using Statistics : A Biologist's Guide, 2011, Wiley]
+   5.   Numpy [https://docs.scipy.org/doc/numpy/index.html]
+   6.   MS Office CSV file Def[https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba]
+   7.   Matplotlib  [https://matplotlib.org/]
+   8.   Data Science from Scratch [Grus, J.; Data Science from Scratch, 2017, O'Reilly]
+   9.   Scikitlearn [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
+   10.  Scikitlearn, Iris Data Set [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
+   11.  Seaborn python package [https://seaborn.pydata.org/index.html]
+   12.  Seaborn pairgrids [https://seaborn.pydata.org/generated/seaborn.PairGrid.html#seaborn.PairGrid]
 
 
 
