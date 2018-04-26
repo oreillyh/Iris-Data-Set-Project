@@ -146,39 +146,10 @@ From IrisData_mean.py python file
   
   Initial attempts to import the csv file and split it using basic python code proved cumbersome. The Pandas library simplified the process of data import and manipulation as seen in the Irisdata_mean.py script and in subsequent work.
 
-
-Table of Means for all species
-
-Mean (Sepal Length) for Iris Setosa:                          6.253
-Mean  (Sepal Width) for Iris Setosa:                          2.865
-Mean  (Petal Length) for Iris Setosa:                         4.912
-Mean  (Petal Width) for Iris Setosa                           1.681
-
-Mean (Sepal Length) for Iris Versicolor:                      5.910
-Mean  (Sepal Width) for Iris Versicolor:                      2.762
-Mean  (Petal Length) for Iris Versicolor:                     4.298
-Mean  (Petal Width) for Iris Versicolor:                      1.356
-
-Mean (Sepal Length) for Iris Virginica:                       6.610
-Mean  (Sepal Width) for Iris Virginica                        2.973
-Mean  (Petal Length) for Iris Virginica:                      5.552
-Mean  (Petal Width) for Iris Virginica:                       2.019
+  Table of Means and Standard Deviations
+  ![tables](screenshot9.png)
 
 
-Table of Standard Deviations for all species
-
-SD of Sepal Length for Iris Setosa:                          0.662
-SD of Sepal Width for Iris Setosa                            0.331
-SD of Petal Length for Iris Setosa:                          0.828
-SD of Petal Width for Iris Setosa:                           0.426
-SD of Sepal Length for Iris Versicolor:                      0.486
-SD of Sepal Width for Iris Versicolor:                       0.308
-SD of Petal Length for Iris Versicolor:                      0.533
-SD of Petal Width for Iris Versicolor:                       0.266
-SD of Sepal Length for Iris Virginica:                       0.631
-SD of Sepal Width for Iris Virginica:                        0.320
-SD of Petal Length for Iris Virginica:                       0.550
-SD of Petal Width for Iris Virginica:                        0.268
 
   Plots and histograms in the Iris_Data_np_v2.py file showed how unique the sepal lengths, widths and petal lengths and widths are for each species. This can be summarised by their individual means as seen in the table above. Output of Standard deviation shows in simple terms the variability around the mean within characteristics.
 
