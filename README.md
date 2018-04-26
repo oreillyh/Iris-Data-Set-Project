@@ -22,7 +22,7 @@ The Search For The Holy Grail
     * Overall summary of entire iris data: count, mean sd, min, %, max
     * Output and label simple line graphs
     * Output and Label Histograms 
-* Iris.seaborn.py:  A brief investigation into the usefulness of the      Seaborn package for data visualisation on the Iris set
+* Iris.seaborn.py:  A brief investigation into the usefulness of the Seaborn package for data visualisation on the Iris set
 
 ### 1.0 INTRODUCTION
 
@@ -93,6 +93,12 @@ An example of a histogram generated is displayed below, from the Iris_Data_np_v2
 
 ![Histogram](screenshot7_Histogram.png)
 
+Using the seaborn package, plots (scatterplot matrices) were generated showing the relationship between attributes for each species
+
+![seaborn][seaborn_python.png]
+
+This visualisation demonstrates graphically how distinct each species (coloured in red, green and blue) in the plots are from eachother based on the patterns. 
+
   
 #### 2.3 Simple Statistical Analysis
 
@@ -136,5 +142,30 @@ From IrisData_mean.py python file
   The Scikitlearn library site contains various examples of machine learning models of the Iris data set including principal component analysis, logistic regression and nearest neighbours classification (amongst others) ref: [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
 
    ### 3.0  DISCUSSION AND CONCLUSION
-  Use of Pandas
+  The Iris Data set contains a relatively simple number of measurements whcih can be elegantly used to demonstrate statistical to differentiate different data sets and use those data sets to develop mechine learning algorithms to predict and classify unknowns.  
+  
+  Initial attempts to import the csv file and split it using basic python code proved cumbersome. The Pandas library simplified the process of data import and manipulation as seen in the Irisdat_mean.py script and in subsequent work.
+
+  Plopts and histograms in the Iris_Data_np_v2.py file showed how unique the sepal lengths, widths and petal lengths and widths are for each species. This can be summarised by their individual means. Out put of standard deviation shows in simple terms the variability around the mean within characteristics.
+
+  Tentative research on machine learning indicates a vast amount of work done on the Iris data set and the various machine learning techniques employed. 
+
+
    ### REFERENCES
+
+   [https://en.wikipedia.org/wiki/Linear_discriminant_analysis]
+   [https://en.wikipedia.org/wiki/Iris_flower_data_set] 
+   [http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf],
+   [ Dytham, C. Choosing and Using Statistics : A Biologist's Guide, 2011, Wiley]
+   [https://docs.scipy.org/doc/numpy/index.html]
+   [https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba]
+   [https://matplotlib.org/]
+   [Grus, J.; Data Science from Scratch, 2017, O'Reilly]
+   [http://scikit-learn.org/stable/tutorial/basic/tutorial.html]
+   [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
+   [https://seaborn.pydata.org/index.html]
+   [https://seaborn.pydata.org/generated/seaborn.PairGrid.html#seaborn.PairGrid]
+
+
+
+
