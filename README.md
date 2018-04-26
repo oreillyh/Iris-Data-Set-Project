@@ -1,7 +1,7 @@
 # Iris-Data-Set-Project
 
 The Search For The Holy Grail
-> ARTHUR: What manner of man are you that can summon up fire without flint or tinder?
+>ARTHUR: What manner of man are you that can summon up fire without flint or tinder?
 >TIM: I... am an enchanter.
 >ARTHUR: By what name are you known?
 >TIM: There are some who call me... 'Tim'? 
@@ -108,11 +108,11 @@ From IrisData_mean.py python file
 
   ![means](screenshot2.PNG)
 
-  Further work was carried out to calculate the standard deviation from the mean for each property.
+  Further work was carried out to calculate the SD from the mean for each property.
 
-  ![Standard Deviations](screenshot6.PNG)
+  ![SDs](screenshot6.PNG)
 
-  Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a (hopefully) unique numerical label to each characteristic with which we might distinguish it from other characteristics. The standard deviation from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. 
+  Determination of the means of each characteristic in the data set is the simplest and first step in data analysis of this or any set of data. The mean of each characteristic helps us give a (hopefully) unique numerical label to each characteristic with which we might distinguish it from other characteristics. The SD from the mean helps us determine how our data set varies from the mean and gives us some initial anecdotal evidence as to how easy it might be to use the means to predict the species of Iris, given an unknown data set of measurements of characteristics, such as Petal length and width, and sepal length and width. 
 
 #### 2.4 Machine Learning
   
@@ -142,11 +142,45 @@ From IrisData_mean.py python file
   The Scikitlearn library site contains various examples of machine learning models of the Iris data set including principal component analysis, logistic regression and nearest neighbours classification (amongst others) ref: [http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html]
 
    ### 3.0  DISCUSSION AND CONCLUSION
-  The Iris Data set contains a relatively simple number of measurements whcih can be elegantly used to demonstrate statistical to differentiate different data sets and use those data sets to develop mechine learning algorithms to predict and classify unknowns.  
+  The Iris Data set contains a relatively simple number of measurements which can be elegantly used to statistically differentiate different data sets and use those data sets to develop mechine learning algorithms to predict and classify unknowns.  
   
-  Initial attempts to import the csv file and split it using basic python code proved cumbersome. The Pandas library simplified the process of data import and manipulation as seen in the Irisdat_mean.py script and in subsequent work.
+  Initial attempts to import the csv file and split it using basic python code proved cumbersome. The Pandas library simplified the process of data import and manipulation as seen in the Irisdata_mean.py script and in subsequent work.
 
-  Plopts and histograms in the Iris_Data_np_v2.py file showed how unique the sepal lengths, widths and petal lengths and widths are for each species. This can be summarised by their individual means. Out put of standard deviation shows in simple terms the variability around the mean within characteristics.
+
+Table of Means for all species
+
+Mean (Sepal Length) for Iris Setosa:                          6.253
+Mean  (Sepal Width) for Iris Setosa:                          2.865
+Mean  (Petal Length) for Iris Setosa:                         4.912
+Mean  (Petal Width) for Iris Setosa                           1.681
+
+Mean (Sepal Length) for Iris Versicolor:                      5.910
+Mean  (Sepal Width) for Iris Versicolor:                      2.762
+Mean  (Petal Length) for Iris Versicolor:                     4.298
+Mean  (Petal Width) for Iris Versicolor:                      1.356
+
+Mean (Sepal Length) for Iris Virginica:                       6.610
+Mean  (Sepal Width) for Iris Virginica                        2.973
+Mean  (Petal Length) for Iris Virginica:                      5.552
+Mean  (Petal Width) for Iris Virginica:                       2.019
+
+
+Table of Standard Deviations for all species
+
+SD of Sepal Length for Iris Setosa:                          0.662
+SD of Sepal Width for Iris Setosa                            0.331
+SD of Petal Length for Iris Setosa:                          0.828
+SD of Petal Width for Iris Setosa:                           0.426
+SD of Sepal Length for Iris Versicolor:                      0.486
+SD of Sepal Width for Iris Versicolor:                       0.308
+SD of Petal Length for Iris Versicolor:                      0.533
+SD of Petal Width for Iris Versicolor:                       0.266
+SD of Sepal Length for Iris Virginica:                       0.631
+SD of Sepal Width for Iris Virginica:                        0.320
+SD of Petal Length for Iris Virginica:                       0.550
+SD of Petal Width for Iris Virginica:                        0.268
+
+  Plots and histograms in the Iris_Data_np_v2.py file showed how unique the sepal lengths, widths and petal lengths and widths are for each species. This can be summarised by their individual means as seen in the table above. Output of Standard deviation shows in simple terms the variability around the mean within characteristics.
 
   Tentative research on machine learning indicates a vast amount of work done on the Iris data set and the various machine learning techniques employed. 
 
